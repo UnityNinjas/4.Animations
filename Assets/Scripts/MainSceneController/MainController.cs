@@ -8,12 +8,15 @@ public class MainController : MonoBehaviour
     public Light lightOnDoor;
     public Collider2D colliderOnDoor;
     public ParticleSystem hackEffect;
-
     [Space(10)]
     [Header("Level 3")]
+    public GameObject laserOnDoor;
+
     public Transform finishDoor;
     public Collider2D colliderOnFinishDoor;
     public ParticleSystem hackEffectFinish;
+
+   
 
     public void OnDoorLockerClicked()
     {
